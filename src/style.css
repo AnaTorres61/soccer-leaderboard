@@ -1,0 +1,109 @@
+::-webkit-scrollbar {
+    width: 8px;
+    background: #0C0C26;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #BFBFBF;
+}
+
+* {
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 532px;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/6438944/thumb/9.jpg');
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+}
+
+input{
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.adicionar{
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 2px 2px darkgray;
+  border-color: darkgray;
+  cursor: pointer;
+}
+.adicionar:hover{
+  transform: scale(1.05);
+}
+
+.escudo img{
+  width: 30px;
+  height: 30px;
+}
+
+#tabelaJogadores button{
+  border-radius: 5px;
+}
+#tabelaJogadores button:hover{
+  cursor: pointer;
+  transform: scale(1.05)
+}
+.vitoria{
+  background-color: green;
+  border-color: green;
+  color: white;
+}
+.empate{
+  background-color: yellow;
+  border-color: yellow;
+  color: white;
+}
+.derrota{
+  background-color: red;
+  border-color: red;
+  color: white;
+}
